@@ -139,7 +139,7 @@ blockquote {
 }
 
 .banners-l a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 	color:#8abfe0;
 	font-size: 16px;
 }
