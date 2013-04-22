@@ -109,7 +109,7 @@ blockquote {
 .banners {
 	width: 100%;
 	height: 65px;
-	margin: 60px auto 0 auto;
+	margin: 60px auto 55px auto;
 }
 .banners-l {
 	 margin: 0 20px;
@@ -142,4 +142,129 @@ blockquote {
 	text-decoration: none;
 	color:#8abfe0;
 	font-size: 16px;
+}
+/* sidebar */
+.sidebar {
+	width: 270px;
+	float: left;
+	margin-right: 30px;
+}
+.sidebar h2 {
+	text-transform: uppercase;
+	color: #008fbf;
+	margin-bottom: 37px;
+	font-family: "Myriad_pro-Cond";
+	font-size: 23px;
+}
+.sidebar span {
+	font-family: "Myriad_pro-Cond";
+	font-size: 12px;
+	color: #2a2a2a;
+	border-right: 2px solid #2a2a2a;
+	padding-right: 5px;
+	text-decoration: underline;
+}
+.sidebar li {
+	margin-bottom: 10px;
+}
+.sidebar a {
+	text-decoration: underline;
+	padding-left: 5px;
+	color: #00a7c0;
+	font-size: 12px;
+}
+.all_news {
+	color: #015967;
+	font-size: 13px;
+	font-family: "Myriad_pro-Cond";
+	padding: 0;
+}
+.zakaz {
+	margin-top: 48px;
+}
+.zakaz h2 {
+	color: #1f6f7c;
+	font-size: 23px;
+	font-family: "Myriad_pro-Cond";
+	margin-bottom: 20px;
+}
+.zakaz span {
+	color: #04a7c0;
+	font-family: "Myriad_pro-Cond";
+	font-size: 13px;
+	text-decoration: none;
+	border: none;
+}
+.zakaz-b {
+	margin-top: 10px;
+}
+
+/* content */
+.content {
+	/* clear: both; */
+	margin-left: 300px;
+	width: 700px;
+}
+.content h2 {
+	text-transform: uppercase;
+	color: #008fbf;
+	margin-bottom: 12px;
+	font-family: "Myriad_pro-Cond";
+	font-size: 23px;
+}
+.content p {
+	font-size: 13px;
+	color: #797979;
+	line-height: 1.6;
+	margin-bottom: 15px;
+	border-top: 1px dashed #686868;
+	border-bottom: 1px dashed #686868;
+	padding: 18px 0 18px 0;
+}
+
+.content-b ul {
+	/* float: left; */
+	display: inline-block;
+	margin-right: 42px;
+	line-height: 1.7;
+	list-style: none;
+}
+.content-b {
+	border-bottom: 1px dashed #686868;
+	padding-bottom: 15px;
+}
+.content-b a {
+	text-decoration: underline;
+	color: #62abc2;
+	font-size: 13px;
+}
+.content-b ul>li:before {
+	content: "\2043";
+	margin-left: -1ex;
+	margin-right: 1ex;
+	color: #62abc2;
+}
+
+
+/* content-bottom */
+
+.content_bottom {
+	margin: 35 auto;
+	/* display: inline-block; */
+}
+.content_bottom h1 {
+	color: #579ac8;
+	text-transform: uppercase;
+	font-family: "Myriad_pro-Cond";
+	font-size: 23px;
+
+}
+.projects {
+	float: left;
+	margin: 25px 35px;
+}
+.projects img {
+	display: block;
+	clear: both;
+	margin-bottom: 10px;
 }
